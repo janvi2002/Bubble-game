@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(175, 213, 175);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    background-color: aliceblue;
+    height: 80%;
+    width: 70%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 13%;
+    background-color: rgb(19, 83, 64);
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.score{
+    padding: 7px 12px;
+border-radius:4px ;
+background-color: white;
+margin: 7px;
+color: rgb(70, 104, 70);
+font-weight: 800;
+}
+
+#bottom{
+    /* height:87%; */
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.bubble{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: rgb(85, 138, 85);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 5px;
+}
+.bubble:hover{
+    background-color: rgb(67, 94, 67);
+}
+
+.btn{
+    color: black;
+    padding: 8px 8px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(170, 196, 176);
+}
+
+#stop{
+    display:none;
+}
+
